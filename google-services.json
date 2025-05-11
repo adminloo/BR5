@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "750017872566",
+    "project_id": "iosbr2",
+    "storage_bucket": "iosbr2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750017872566:android:9286f6ab7183f8d6a1dc17",
+        "android_client_info": {
+          "package_name": "com.iosbr2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOyTAfz18kSf2pi6Shar_wwFTNbvmiQ6A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

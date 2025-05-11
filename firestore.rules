@@ -1,0 +1,36 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow read/write access on all bathrooms collections
+    match /bathrooms-official/{document=**} {
+      allow read, write: if true;
+    }
+    
+    match /bathrooms-user/{document=**} {
+      allow read, write: if true;
+    }
+    
+    match /reviews/{document=**} {
+      allow read, write: if true;
+    }
+
+    match /FinalBathrooms/{document=**} {
+      allow read, write: if true;
+    }
+
+    // Add this rule for location queries
+    match /bathrooms/{document=**} {
+      allow read, write: if true;
+    }
+
+    // Add rule for pending bathrooms
+    match /pendingBathrooms/{document=**} {
+      allow read, write: if true;
+    }
+
+    // Add rule for reports
+    match /reports/{document=**} {
+      allow read, write: if true;
+    }
+  }
+} 
